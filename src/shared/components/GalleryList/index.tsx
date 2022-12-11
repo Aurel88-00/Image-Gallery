@@ -1,0 +1,1 @@
+export {GalleryList as default} from './GalleryList';
