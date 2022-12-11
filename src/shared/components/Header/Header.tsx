@@ -16,7 +16,6 @@ export const Header: FC = () => {
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
             Image Gallery
           </Typography>
-
           <Tooltip title="Avatar placeholder">
             <Button color="inherit">Avatar</Button>
           </Tooltip>
