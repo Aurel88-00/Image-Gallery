@@ -1,6 +1,6 @@
 import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react'
 
-const client_id = 'i_hhvNH8T8rPxqVt0pvij1yTaFvz4WE96SSMZQzAuI4';
+const client_id = '*************************************';
 
 interface QueryParams {
   id: string,
