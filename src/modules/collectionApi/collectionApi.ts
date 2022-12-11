@@ -14,6 +14,7 @@ export const collectionApi = createApi({
     getPaginatedCollection: builder.query<any, string | any>({
       query: (page : number ) => `collections?client_id=${client_id}&page=${page}`,
     }),
+    
     getPaginatedPhotos : builder.query<any , string | any>({
        query: ({id , page} : QueryParams) => `collections/${id}/photos?client_id=${client_id}&page=${page}&per_page=1000000` 
     }),

@@ -1,7 +1,7 @@
 import { FC } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import { useGetPaginatedPhotosQuery } from "../../modules/collectionApi/collectionApi";
-import { Box, Container, Typography, IconButton } from "@mui/material";
+import { Box, Container, IconButton } from "@mui/material";
 import { Home } from "@mui/icons-material";
 import LoadingProgress from "../../shared/components/LoadingProgress";
 import { PhotoInterface } from "../../shared/models/props/photo.interface";
