@@ -21,7 +21,6 @@ export const PhotosList: FC = () => {
       }
     );
 
-  console.log(photoListData);
   return (
     <>
       {isPhotoListDataLoading ? (
